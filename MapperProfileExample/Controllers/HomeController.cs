@@ -36,7 +36,6 @@ namespace MapperProfileExample.Controllers
             };
 
             var data= _mapper.Map<Dto.UserDto>(_DbUser);
-            var x = data.Name;
             return View(data);
         }
 
